@@ -1,0 +1,8 @@
+name: "gh-box"
+description: "Update a pinned gist to contain GitHub profile data"
+branding:
+  icon: "database"
+  color: "purple"
+runs:
+  using: "node12"
+  main: "dist/index.js"
