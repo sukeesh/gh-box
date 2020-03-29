@@ -32,7 +32,7 @@ async function main() {
   isPrivate ? arr.push(userData.public_repos + userData.owned_private_repos) : arr.push(userData.public_repos);
   arr.push(contributionData.data.years[0].total);
   arr.push(contributionData.data.years[0].year);
-  userData.hireable ? arr.push('✅️ Opted to Hire') : arr.push('❌ Not opted to Hire');
+  userData.hireable ? arr.push('💼 Opted to Hire') : arr.push('🚫 Not opted to Hire');
   arr.push(userData.public_gists);
   arr.push(pkData.length);
   await updateGist(arr);
