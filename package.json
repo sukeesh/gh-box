@@ -2,7 +2,7 @@
   "name": "gh-box",
   "version": "1.0.0",
   "description": "🐱 Update a gist to contain your GitHub profile data",
-  "author": "Yohix <me@yohix.dev>",
+  "author": "Yogi <me@yogi.codes>",
   "license": "MIT",
   "scripts": {
     "build": "ncc build index.js --out dist --minify"
