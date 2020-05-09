@@ -26,4 +26,4 @@
 
 ## License
 
-MIT © [Yohix](LICENSE)
+MIT © [Yogi](LICENSE)
