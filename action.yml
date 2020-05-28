@@ -6,3 +6,7 @@ branding:
 runs:
   using: "node12"
   main: "dist/index.js"
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+  GIST_ID: ${{ secrets.GIST_ID }}
+  CONSIDER_PRIVATE: ${{ secrets.CONSIDER_PRIVATE }}
